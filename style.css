@@ -1,0 +1,23 @@
+.main-table{
+    width: 1000px;
+    border-collapse: collapse;
+    border: 3px solid black;
+}
+.main-table__caption{
+    font-size: 36px;
+    font-weight: bold;
+}
+.main-table__th, .main-table__td{
+    font-size: 18px;
+    width: 25%;
+}
+.main-table__submit, .main-table__input {
+    text-align: center;
+    width: 240px;
+}
+.main-form{
+    margin-top: 5px;
+}
+.editBtn, .deleteBtn{
+    width: 120px;
+}

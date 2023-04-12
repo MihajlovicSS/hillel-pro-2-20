@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.js" defer></script>
+    <script src="./tableAPI.js" defer></script>
+    <script src="./script.js" defer></script>
+    <title>Homework 20</title>
+</head>
+<body>
+    <table id='table' class = "main-table">
+        <caption class="main-table__caption">Contacts</caption>
+        <tr>
+            <th class="main-table__th">Name</th>
+            <th class="main-table__th">Surname</th>
+            <th class="main-table__th">Phone</th>
+            <th class="main-table__th">Actions</th>
+        </tr>            
+    </table>
+    <form id="contactForm" class="main-form" action="" method="post">
+        <input id="inputName" class="main-table__input" type="text" placeholder="Введите Имя"/>
+        <input id="inputSurname" class="main-table__input" type="text" placeholder="Введите Фамилию"/>
+        <input id="inputPhone" class="main-table__input" type="text" placeholder="Введите номер телефона"/>
+        <input id="id" class="main-table__input" type="hidden"/>
+        <button class="main-table__submit" id="submitButton">Добавить</button>
+    </form>
+</body>
+</html>
